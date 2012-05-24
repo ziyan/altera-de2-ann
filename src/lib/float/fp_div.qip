@@ -1,0 +1,4 @@
+set_global_assignment -name IP_TOOL_NAME "ALTFP_DIV"
+set_global_assignment -name IP_TOOL_VERSION "9.1"
+set_global_assignment -name VHDL_FILE [file join $::quartus(qip_path) "fp_div.vhd"]
+set_global_assignment -name MISC_FILE [file join $::quartus(qip_path) "fp_div.cmp"]
